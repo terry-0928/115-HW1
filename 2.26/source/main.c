@@ -27,8 +27,9 @@ int main(void)
 		}
 	}
 	else
+	{
 		printf("第二個輸入不能為0\n");
-
+	}
 	system("pause");
 	return 0;
 }

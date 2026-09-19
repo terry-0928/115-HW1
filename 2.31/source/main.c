@@ -3,23 +3,13 @@
 
 int main(void)
 {
-	printf("%-8s%-8s%-8s\n", "number", "square", "cube");
+    printf("number\tsquare\tcube\n");
 
-	for (int i = 0; i <= 10; i++)
-	{
-		int num;		
-		int square_num;
-		int cube_num;
+    for (int i = 0; i <= 10; i++)
+    {
+        printf("%d\t%d\t%d\n", i, i * i, i * i * i);
+    }
 
-		num = i;
-		square_num = i * i;
-		cube_num = i * i * i;
-
-		printf("%-8d", num);
-		printf("%-8d", square_num);
-		printf("%-8d\n", cube_num);
-	}
-
-	system("pause");
-	return 0;
+    system("pause");
+    return 0;
 }

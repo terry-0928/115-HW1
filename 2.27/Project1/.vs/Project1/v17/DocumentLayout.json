@@ -1,9 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\113-1HW\\2.27\\Project1\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Downloads\\\u9AD8\u968E\u7A0B\u5F0F\\hw\\\u9AD8\u968E\u5BE6\u7FD2\u4F5C\u696D\u7A0B\u5F0F\\113-1HW1\\2.27\\Project1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A80F8CE-B6CE-47E2-A77F-8D2A89CE666D}|Project1\\Project1.vcxproj|D:\\113-1HW\\2.27\\source\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6A80F8CE-B6CE-47E2-A77F-8D2A89CE666D}|Project1\\Project1.vcxproj|C:\\Users\\user\\Downloads\\\u9AD8\u968E\u7A0B\u5F0F\\hw\\\u9AD8\u968E\u5BE6\u7FD2\u4F5C\u696D\u7A0B\u5F0F\\113-1HW1\\2.27\\source\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\113-1HW\\2.27\\source\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +22,23 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.c",
-              "DocumentMoniker": "D:\\113-1HW\\2.27\\source\\main.c",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\\u9AD8\u968E\u7A0B\u5F0F\\hw\\\u9AD8\u968E\u5BE6\u7FD2\u4F5C\u696D\u7A0B\u5F0F\\113-1HW1\\2.27\\source\\main.c",
               "RelativeDocumentMoniker": "..\\source\\main.c",
-              "ToolTip": "D:\\113-1HW\\2.27\\source\\main.c",
+              "ToolTip": "C:\\Users\\user\\Downloads\\\u9AD8\u968E\u7A0B\u5F0F\\hw\\\u9AD8\u968E\u5BE6\u7FD2\u4F5C\u696D\u7A0B\u5F0F\\113-1HW1\\2.27\\source\\main.c",
               "RelativeToolTip": "..\\source\\main.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-09-30T15:49:17.975Z",
+              "WhenOpened": "2026-09-17T08:57:53.494Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.c",
+              "DocumentMoniker": "D:\\113-1HW\\2.27\\source\\main.c",
+              "ToolTip": "D:\\113-1HW\\2.27\\source\\main.c",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-30T15:49:17.975Z"
             }
           ]
         }

@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int num;
 
     printf("請輸入一個整數：\n");
@@ -14,5 +14,6 @@ int main() {
         printf("%d 是基數\n", num);
     }
 
+    system("pause");
     return 0;
 }

@@ -4,34 +4,43 @@
 
 int main(void)
 {
-	float height;
-	float weight;
-	float BMI_result = 0;
+    double height;
+    double weight;
+    double bmi;
 
-	printf("請輸入身高(公尺): ");
-	scanf("%f", &height);
+    printf("請輸入身高(公尺): ");
+    scanf("%lf", &height);
 
-	printf("請輸入體重(公斤): ");
-	scanf("%f", &weight);
+    printf("請輸入體重(公斤): ");
+    scanf("%lf", &weight);
 
-	BMI_result = weight / (height * height);
+    bmi = weight / (height * height);
 
-	printf("\n");
+    printf("\n您的 BMI 數值為: %.1f\n\n", bmi);
 
-	printf("BMI 數值:\n");
+    printf("BMI VALUES\n");
+    printf("Underweight: less than 18.5\n");
+    printf("Normal:      between 18.5 and 24.9\n");
+    printf("Overweight:  between 25 and 29.9\n");
+    printf("Obese:       30 or greater\n\n");
 
-	if (BMI_result < 18.5)
+    if (bmi < 18.5)
+    {
+        printf("評估結果: 您的體重過輕 (Underweight)\n");
+    }
+    else if (bmi < 25.0)
+    {
+        printf("評估結果: 您的體重正常 (Normal)\n");
+    }
+    else if (bmi < 30.0)
+    {
+        printf("評估結果: 您的體重過重 (Overweight)\n");
+    }
+    else
+    {
+        printf("評估結果: 您的體型肥胖 (Obese)\n");
+    }
 
-		printf("過輕: 低於 18.5\n");
-	else if (BMI_result < 25)
-		printf("正常: 18.5 到 24.9 \n");
-	else if (BMI_result < 30)
-		printf("過重: 25 到 29.9 \n");
-	else
-		printf("肥胖: 超過 30\n");
-
-	printf("\n");
-
-	system("pause");
-	return 0;
+    system("pause");
+    return 0;
 }
